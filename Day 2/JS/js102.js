@@ -1,4 +1,7 @@
 // Converting between data types and checking it.
+let  x = "9"
+let y = parseInt(x)
+
 /*
    To convert from string to float use parseFloat function which take the string as a parameter.
    To convert from string to integer use parsInt function which takes the string as a parameter.
@@ -46,3 +49,29 @@
   for the inheritance use extends ClassName.
   there is overriding in methods in javaScript.
 */
+
+let Ahmed = {
+   name: "Ahmed",
+   age: 21,
+   major: "COE",
+   courses:["ICS253","COE301"],
+   welcome: `Welcome`
+}
+console.log(Ahmed)
+
+class Car{
+   color
+   #carId
+   speed
+   price
+   static addPrice
+   constructor(color, carId,speed,price){
+      this.color = color;
+      this.#carId = carId;
+      this.price = price
+      this.speed = speed
+   }
+}
+
+let car1 = new Car("red",1010,200,30000)
+console.log(car1.speed)

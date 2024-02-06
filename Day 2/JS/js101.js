@@ -1,13 +1,17 @@
 // How to print in js?
-
+console.log("hello world")
 // How to define a variable in js?
-
+let x = 0;
+var y = x+1;
+const name = "Jalal"
 // What are the types of variable declaration in JS?
+//// ANSWER: number, string, boolean
+
 
 // How to update a variable value in JS?
-
+x = 1
 // How to know the type of a variable in JS?
-
+typeof(x)
 /* 
    Data Types in javaScript:
    String : we use it for characters and strings.
@@ -19,7 +23,7 @@
 
 // undefined data type appears when you define a variable and do not assigne a value for it.
 // if you do not assigne a value for a variable its value will be undefined but for more readability programers assing null inested.
-
+console.log(`The number we chose is ${4}`)
 //--------------------------------------------------------------------------------------------------------------------------------------------
 
 /* 
